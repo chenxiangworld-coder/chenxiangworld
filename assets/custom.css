@@ -3,7 +3,7 @@ body {
 }
 
 .kaiti {
-  font-family: 'LXGW WenKai', cursive !important;
+  font-family: 'LXGW WenKai', 'Noto Serif SC', serif !important;
 }
 
 .hover\:animate-spin:hover {
