@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap');
+
+body {
+  font-family: "Noto Serif SC", "Georgia", "宋体", serif !important;
+}
+
+/* 缩小标题和正文之间的距离 */
+.post-content {
+  margin-top: -20px !important;
+}
+
+.post-content p {
+  font-size: 18px !important;
+  line-height: 2.2 !important;
+  letter-spacing: 1.5px !important;
+  margin-bottom: 1.5em !important;
+}
+
+.post-title {
+  font-size: 28px !important;
+  letter-spacing: 3px !important;
+}
+
+/* 楷体样式 */
+.kaiti {
+  font-family: "KaiTi", "楷体", "STKaiti", serif !important;
+  font-style: italic;
+}
+
+/* 自定义字号 */
+.small {
+  font-size: 14px !important;
+}
+.large {
+  font-size: 22px !important;
+}
