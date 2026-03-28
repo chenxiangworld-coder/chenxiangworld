@@ -5,7 +5,7 @@ theme = 'paper'
 
 [params]
   color = 'linen'
-  avatar = '/chenxiang.jpg'
+  avatar = 'https://chenxiangworld.com/chenxiang.jpg'
   name = '陈翔'
   bio = '记录写过的一些诗'
 
@@ -18,3 +18,4 @@ theme = 'paper'
   name = "标签"
   url = "/tags/"
   weight = 1
+
