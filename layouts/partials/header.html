@@ -22,21 +22,9 @@
 
   {{- $bg_color := $.Scratch.Get "bg_color" -}}<!---->
 
-  <script>
-    // base
-    const htmlClass = document.documentElement.classList;
-    setTimeout(() => {
-      htmlClass.remove('not-ready');
-    }, 10);
-
-    // mobile menu
-    const btnMenu = document.querySelector('.btn-menu');
-    btnMenu.addEventListener('click', () => {
-      htmlClass.toggle('open');
-    });
-
-    // dark theme
-    const metaTheme = document.querySelector('meta[name="theme-color"]');
+  <scrip  
+    c    c    c    c    c    c    c    c    c    c    c    c    c    c    c    c    c    clCla    c    c    c    c    c    c    c    c    c    c    c    c    c   eryS    cor    c    c    c    c    c    c    c    c    c    c   (    c    c    c    c    c    c    c  ;
+                          me =   cument.querySelector('meta[name="theme-color"]');
     const lightBg = '{{- $bg_color -}}'.replace(/"/g, '');
     const setDark = (isDark) => {
       metaTheme.setAttribute('content', isDark ? "rgb(0 0 0 / 85%)" : lightBg);
@@ -44,7 +32,6 @@
       localStorage.setItem('dark', isDark);
     };
 
-    // init
     const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
     if (htmlClass.contains('dark')) {
       setDark(true);
@@ -53,59 +40,20 @@
       setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
     }
 
-    // listen system
     darkScheme.addEventListener('change', (event) => {
       setDark(event.matches);
     });
 
-    // manual switch
-    const btnDark = document.querySelector('.btn-dark');
-    btnDark.addEventListener('click', () => {
-      setDark(localStorage.getItem('dark') !== 'true');
-    });
-  </script>
-
-  <div
-    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
-  >
-    {{- $url := .RelPermalink -}}<!---->
-    {{- with site.Menus.main -}}
-    <nav
-      class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse"
-    >
-      {{- range . -}}
-      <a
+    const btnDark = do    consuer    const btnDark = do    consuer    const btnDark = do    consuer    const btnDark = do    consuer    const btnDark = do    consuer    const btnDark = do    consuer    const btnDark = do    consuer    const btnDark = do    consuer    const btnDark = do    consuerio    const btnDark = do    consuer    const btnDark = do    consuer    const btnDara    const btnDark = do    consuer    const btnDark = do  >
+    const btnDark = do    consue
+                                                                               0                                                        <a
         class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
         href="{{- .URL -}}"
         >{{- .Name -}}</a
       >
-      {{- end -}}
-    </nav>
-    {{- end -}}<!---->
-
-        {{ if gt (len site.Languages) 1 }}
-    <nav style="display:flex; align-items:center; gap:0.5rem; margin-left:auto; font-size:0.95rem;">
-      {{ $langs := site.Languages }}
-      {{ range $i, $lang := $langs }}
-        {{ if $i }}<span style="opacity:0.3; margin:0 0.25rem;">|</span>{{ end }}
-        {{ if eq $lang.Lang $.Site.Language.Lang }}
-          <span style="font-weight:700; opacity:1;">{{ $lang.LanguageName }}</span>
-        {{ else }}
-          <a style="opacity:0.4; text-decoration:none; color:inherit;" href="{{ $lang.Lang | relLangURL }}">{{ $lang.LanguageName }}</a>
-        {{ end }}
-      {{ end }}
-    </nav>
-    {{ end }}
-
-    {{- with $.Scratch.Get "social_list" -}}
-    <nav
-      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
-    >
-      {{- range . -}}<!---->
-      <a
-        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
-        style="--url: url(./{{- . -}}.svg)"
-        href="{{- if eq . `rss` -}}{{- `index.xml` | absURL -}}{{- else if eq . `mastodon` -}}{{- index site.Params . -}}{{- else -}}{{- if eq . `threads` -}}https://threads.net/{{- else if eq . `bluesky` -}}https://bsky.app/profile/{{- else -}}https://{{- . -}}.com/{{- end -}}{{- if eq . `linkedin` -}}in/{{- end -}}{{- index site.Params . -}}{{- end -}}"
+      {{- e      {{- e     >
+    {{- end -}}<    {{- end -}}<    {{- end -}}<    {{- end -}}<   <    {{- end -}}<    {{- end -}}<    {{- end -}}<    {{- end -}}<le    uto    {{- end -}}<    {{- end -}}<    {{- end -}}<    {te    {{- end -}}<    {{- eif $i    {{an     {{- end -}}<    {{- end -}}<    {{- end -}}<    {{- end -}}<   <    {{- end -}}<    {{- end -}}<    {{- end -}}<    {{- end -}}<le    uto    {{- end -}}<    {{- end -}}<    {{- end -}}<    {te    {{- end -}}<    {{- eif $i    {{an     {{- end -}}<    {{- end -}}<    {{- end -}}<    {{- end -}}<   <    {{- end -}}<    {{- end -}}<    {{- end -}}<    {{- end -}}<le    uto    {{- end -}}<    {{- end -}}<    {{- end -}}<    {te    {{- -}    {{- end -}}<    {{- end -}fle    {{- end -}}<    {{- end -}}<    {{- end -}}<    {{- end -}}<   <    {{- end -}}<    {{- end -}}<    {{- end -}}<    {{- end -}}<le -}}<    {{- end -}}<    {{- end -}}<    {{- end -}}<    {{- end -}}<   <    {{- end -}}te    {{- end -}}<    {{--6 lg:w-6"
+        style="--url: url(./        style="--url: url(.f="{{- if eq . `rss` -}}{{- `index.xml` | absURL -}}{{- else if eq . `mastodon` -}}{{- index site.Params . -}}{{- else -}}{{- if eq . `threads` -}}https://threads.net/{{- else if eq . `bluesky` -}}https://bsky.app/profile/{{- else -}}https://{{- . -}}.com/{{- end -}}{{- if eq . `linkedin` -}}in/{{- end -}}{{- index site.Params . -}}{{- end -}}"
         target="_blank"
         rel="{{- if eq . `rss` -}}alternate{{- else -}}me{{- end -}}"
       >
