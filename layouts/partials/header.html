@@ -1,4 +1,5 @@
 <header
+  style="position:relative;"
   class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
 >
   <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
@@ -13,7 +14,7 @@
       aria-label="Dark"
     ></div>
   </div>
-  <div style="position:absolute;right:2rem;top:50%;transform:translateY(-50%);font-size:0.9rem;">{{ if eq .Site.Language.Lang "zh" }}<span style="font-weight:700;">CN</span><span style="margin:0 0.5rem;opacity:0.3;">|</span><a href="/en/" style="text-decoration:none;opacity:0.4;">EN</a>{{ else }}<a href="/" style="text-decoration:none;opacity:0.4;">CN</a><span style="margin:0 0.5rem;opacity:0.3;">|</span><span style="font-weight:700;">EN</span>{{ end }}</div>
+  <div style="position:absolute;right:2rem;top:50%;transform:translateY(-50%);font-size:0.9rem;">{{ if eq .Site.Language.Lang "zh" }}<span style="font-weight:700;">中文</span><span style="margin:0 0.5rem;opacity:0.3;">|</span><a href="/en/" style="text-decoration:none;opacity:0.4;">EN</a>{{ else }}<a href="/" style="text-decoration:none;opacity:0.4;">中文</a><span style="margin:0 0.5rem;opacity:0.3;">|</span><span style="font-weight:700;">EN</span>{{ end }}</div>
 
   <div
     class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
