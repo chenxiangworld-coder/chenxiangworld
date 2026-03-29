@@ -21,7 +21,7 @@ My hand becomes your glove.*
 
 These two hands have held other hands before.  
 Now they come together,  
-like a bridge—  
+like a bridge  
 opening onto a journey just beginning.  
 
 \*Adapted from Han Dong's poem "Two Hands."  
