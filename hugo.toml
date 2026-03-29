@@ -9,6 +9,7 @@ defaultContentLanguage = 'zh'
     languageCode = 'zh-cn'
     languageName = '中文'
     weight = 1
+    contentDir = 'content/zh'
     [languages.zh.params]
       color = 'linen'
       avatar = 'https://chenxiangworld.com/chenxiang.jpg'
@@ -16,9 +17,11 @@ defaultContentLanguage = 'zh'
       bio = '记录写过的一些诗'
 
   [languages.en]
-    weight = 2
+    languageCode = 'en'
     languageName = "EN"
+    weight = 2
     title = "Writing Poems in Beijing"
+    contentDir = 'content/en'
     [languages.en.params]
       color = 'linen'
       avatar = 'https://chenxiangworld.com/chenxiang.jpg'
