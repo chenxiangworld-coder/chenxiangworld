@@ -5,8 +5,6 @@ draft = false
 tags = ["2026", "poetry"]
 +++
 
-Your Hand
-
 One side of your body is already asleep.  
 Your hand, like a gift, remains beside me.  
 The day's travel has left it tired;  
