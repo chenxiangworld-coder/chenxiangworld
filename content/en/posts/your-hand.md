@@ -26,4 +26,4 @@ Now they come together,
 like a bridge—  
 opening onto a journey just beginning.  
 
-*Adapted from Han Dong's poem "Two Hands."  
+\*Adapted from Han Dong's poem "Two Hands."  
