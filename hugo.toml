@@ -12,7 +12,7 @@ defaultContentLanguage = 'zh'
     contentDir = 'content/zh'
     [languages.zh.params]
       color = 'linen'
-      avatar = 'https://chenxiangworld.com/chenxiang.jpg'
+      avatar = '/avatar.jpg'
       name = '陈翔'
       bio = '记录写过的一些诗'
 
@@ -24,7 +24,7 @@ defaultContentLanguage = 'zh'
     contentDir = 'content/en'
     [languages.en.params]
       color = 'linen'
-      avatar = 'https://chenxiangworld.com/chenxiang.jpg'
+      avatar = '/avatar.jpg'
       name = 'Sean Chen'
       bio = "A record of some poems I've written."
 
