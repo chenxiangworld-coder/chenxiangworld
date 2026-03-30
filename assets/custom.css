@@ -25,3 +25,7 @@ body {
 .hover\:animate-spin:hover {
   animation: none !important;
 }
+
+.main-header h1 a {
+  font-size: 1.2em;
+}

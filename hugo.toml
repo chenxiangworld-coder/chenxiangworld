@@ -1,5 +1,5 @@
 baseURL = 'https://chenxiangworld.com/'
-title = '在中关村写诗'
+title = '某人写诗'
 theme = 'paper'
 
 defaultContentLanguage = 'zh'
@@ -20,7 +20,7 @@ defaultContentLanguage = 'zh'
     languageCode = 'en'
     languageName = "EN"
     weight = 2
-    title = "Writing Poems in Beijing"
+    title = "Someone Writing poems"
     contentDir = 'content/en'
     [languages.en.params]
       color = 'linen'
